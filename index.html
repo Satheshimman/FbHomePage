@@ -1,0 +1,207 @@
+ <!DOCTYPE html>
+<html>
+<head>
+			<title>fb-new-account</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/owl.carousel.min.css">
+<link rel="stylesheet" href="css/owl.theme.default.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@1&family=Noto+Serif:ital,wght@1,500&family=Roboto:ital,wght@0,100;0,700;0,900;1,100;1,700&display=swap" rel="stylesheet">
+</head>
+
+
+<body>
+
+<section id="sec-1" class="navbar p-0">
+
+<div class="container-fluid p-0">
+   <div class="row align-items-center  m-0 py-1">
+     <div class="col-lg-3 p-0">
+	    <div class="fb-icon d-flex align-items-center justify-content-start">
+		  <div class="w-100">
+		  <img src="css/image/fb-icon.webp" class="w-100 text-start">
+		  </div>
+		  <div>
+		  <input class="search px-3 ps-5 py-2 rounded-pill" type="text" placeholder="search facebook" >
+		  </div>
+		</div>
+     </div>
+	 
+	 
+	 <div class="col-lg-6">
+	    <div class="icon-center d-flex justify-content-between  fs-4">
+		  <i class="bi bi-house-door"></i>
+		  <i class="bi bi-people"></i>
+		  <i class="bi bi-tv"></i>
+		  <i class="bi bi-shop"></i>
+		  <i class="bi bi-people"></i>
+		
+		</div>
+	    
+	 </div>
+	 
+	 <div class="col-lg-3">
+	    <div class="icon d-flex justify-content-end align-items-center ">
+		   <i class="bi bi-list   text-center"></i>
+		   <i class="bi bi-messenger ms-4   text-center"></i>
+		   <i class="bi bi-bell ms-4  text-center"></i>
+		   <i class="bi bi-person-circle ms-4 text-center"></i>
+		</div>
+	 </div>
+	 </div>
+	 </div>
+</section>
+
+
+<section id="sec-2" class="sec-2">
+
+<div class="container-fluid">
+   <div class="row">
+     <div class="content col-lg-4 mt-3">
+	    <div class="profile d-flex align-items-center p-0 ">
+		  <div class="p-img ">
+		     <i class="bi bi-person-circle   fs-3 "></i>
+		  </div>
+		  <div class="p-name ms-3">
+		    <h4>sathesh@immanvel</h4>
+		
+		</div>
+	 </div>
+	 <div class="sec-content ">
+	 
+	  
+	   
+	   <div class="icon-content">
+	    <h4 class="ps-5 mt-1">Freinds</h4>
+	    <h4 class="ps-5 mt-1">Feeds</h4>
+	    <h4 class="ps-5 mt-1">Groups</h4>
+	    <h4 class="ps-5 mt-1">Market Place</h4>
+	    <h4 class="ps-5 mt-1">Watch</h4>
+	    <h4 class="ps-5 mt-1">Memories</h4>
+	    <h4 class="ps-5 mt-1">Saved</h4>
+	    <h4 class="ps-5 mt-1">Pages</h4>
+	    <h4 class="ps-5 mt-1">Events</h4>
+	    <h4 class="ps-5 mt-1">ADS Manager</h4>
+	    <h4 class="ps-5 mt-1">See More</h4>
+	 </div>
+   </div>
+   </div>
+   
+   
+   <div class="col-lg-4">
+   
+<form id="form">
+  <div class="d-flex justify-content-between align-items-center">
+     <div class="text d-flex bg-light ">
+	    
+	    <img src="css/image/profile1.png" class="">
+		
+		
+		<input id="input" class=" w-100 rounded-pill ps-3 pe-5 border-none " type="text" placeholder="Whats On Your Mind">
+	
+	 </div>
+	 
+	 <div id="btn" class="post-btn text-center mt-2">
+	    <button type="submit" class="border-0 bg-primary px-4 rounded-pill py-2">post it</button>
+	 </div>
+</div>	 
+</form> 	 
+	 
+	 <div id="post" class="">
+	      
+	      
+		 
+	 </div>
+	 
+	 
+	  <div id="image" class="none">
+	     
+		  <div id="edit-btn" class="mt-5 d-flex justify-content-between align-items-center">
+		   <i class="bi bi-pencil-square">Edit</i>
+		   <i class="bi bi-trash " onclick="delimg(this)" id="delimg">Delete</i>
+		    <p id="time">time</p>
+			
+		  </div>
+		  
+		  <div class="img mt-3" id="img">
+		    <img src="css/image/vk-img.jpg" class="w-100">
+		  </div>
+	     
+		  <div id="edit-btn" class=" d-flex justify-content-between align-items-center">
+		    <i class="bi bi-hand-thumbs-up fs-2" onclick="like(this)" id="heart"><span id="likee">like</span></i>
+			
+			<i class="bi bi-chat fs-2" onclick="command(this)" id="chatbox"><span>Comment</span></i>
+			 
+			
+		   <i class="bi bi-arrow-90deg-right fs-2" onclick="share(this)" id="sharee"><span>Share</span></i>
+		    
+		
+			
+		  </div>
+		  
+		  
+		  <div id="comment" class=" mb-2 d-none cposst">
+		    
+		    <input type="text" " placeholder="leave your comment here" id="commentbox" class="w-100 border-1 py-3 rounded-pill ps-2 ">
+			<p type="button" class="post" id="cpost" onclick="postcomment(this)">post</p>
+			
+			
+			<div id="ccom">
+			</div>
+		  </div>
+		  
+	  </div> 
+	 
+   
+   
+   
+   <div >
+        
+		<div class="modals"id="modal" tabindex="-1">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" onclick="closer(this)" id="closee"></button>
+      </div>
+      <div class="modal-body">
+        <p>Modal body text goes here.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal"onclick="closer(this)" id="closee">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+		
+	    
+   </div>
+   
+   
+   </div>
+   </div>
+   </div>
+  
+</section>
+
+<div>
+	<div>
+		<div>
+			<ul></ul>
+		</div>
+	</div>
+</div>
+
+
+
+<script src="js/main.js"></script>
+
+</body>
